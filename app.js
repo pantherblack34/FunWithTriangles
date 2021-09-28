@@ -24,3 +24,5 @@ function triangleAngleCalc(){
 }
 
 triangleBtn.addEventListener('click', triangleAngleCalc);
+
+
