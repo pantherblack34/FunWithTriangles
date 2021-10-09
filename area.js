@@ -13,7 +13,7 @@ function userInput(a, b){
 function calcArea(){
     const finalAns = userInput(Number(inputVal[0].value), Number(inputVal[1].value));
 
-    outputArea.innerText = "The Area of the triangle is " + finalAns;
+    outputArea.innerText = "The Area of the triangle is " + finalAns + " cm2";
 }
 
 areaButton.addEventListener('click', calcArea);
