@@ -19,7 +19,7 @@ function triangleAngleCalc(){
         if(sumOfTriangles === 180){
             outputEl.innerText = "It is a triangle because sum of angles of triangles is " + sumOfTriangles;
         }else{
-            outputEl.innerText = "This will not form Triangles as the sum of triangles is not equal to 180";
+            outputEl.innerText = "This will not form Triangles as the sum of triangles is not equal to 180 deg";
         }
 }
 
