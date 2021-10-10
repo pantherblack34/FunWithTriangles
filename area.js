@@ -12,9 +12,12 @@ function userInput(a, b){
 }
 
 function calcArea(){
-    const finalAns = userInput(Number(inputVal[0].value), Number(inputVal[1].value));
-
-    outputArea.innerText = "The Area of the triangle is " + Math.abs(finalAns) + " cm2";
+    if (Number(inputVal[0].value) > 0 && Number(inputVal[1].value) > 0){
+        const finalAns = userInput(Number(inputVal[0].value), Number(inputVal[1].value));
+        outputArea.innerText = "The Area of the triangle is " + Math.abs(finalAns) + " cm2";
+    }else{
+        outputArea.innerText = "PLEASE ENTER POSITIVE VALUE";
+    }    
 }
 
 areaButton.addEventListener('click', calcArea);
