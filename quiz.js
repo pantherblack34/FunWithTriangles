@@ -4,7 +4,7 @@ const submitButton = document.querySelector('#submit-answer');
 
 const outputEl = document.querySelector('#outputText');
 
-const rightAnswer = ["90 deg", "Right Angled Triangle"];
+const rightAnswer = ["90 deg", "Right Angled Triangle","Obtuse Triangle","180 deg","Equilateral Triangle"];
 
 function calculationArea(){
     let score = 0;

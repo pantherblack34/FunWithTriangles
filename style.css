@@ -7,7 +7,7 @@ body{
 .navigation{
     display: block;
     text-align: left;
-    width: 700px;
+    width: 80vw;
     margin: auto;
 }
 .non-bullet-list{
@@ -16,24 +16,28 @@ body{
 .inline-list{
     display: inline-block;
     margin: 0.5rem 1rem;
-    border: 3px solid black;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 10px;
     font-size: x-large;    
 }
 .non-bullet-list .inline-list a{
     text-decoration: none;
-    font-display: big;
 }
  h1{
     display: block;
     text-align: left;
+    margin-left: 2rem;
     color: #6441b0;
  }
  label{
     display: inline-block;
     text-align: center;
-    padding: 1rem;
+    margin-top: -0.5rem;
+    margin-left: 3rem;
     font-size: x-large;
  }
+
  .user-input{
     padding: 0.5rem;
     font-size: large;
@@ -46,8 +50,74 @@ body{
  }
  #area-output{
     display: inline-block;
-    width: 500px;
+    width: 700px;
     height: 50px;
+    margin-top: 2rem;
+    margin-left: 2rem;
     font-size: xx-large;
-    border: 2px solid #6441b0;
- }
+    border: 2px solid black;
+}
+
+.angle{
+    padding: 0.5rem;
+    font-size: large;
+}
+#trianglebtn{
+    width: 110px;
+    height: 30px;
+    margin-left: 25px;
+    font-size: 17px;
+}
+#output{
+    display: block;
+    width: 700px;
+    height: 90px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: xx-large;
+    border: 2px solid black;
+}
+
+.input-text{
+    padding: 0.5rem;
+    font-size: large;
+}
+#hypotenusbtn{
+    width: 110px;
+    height: 30px;
+    margin-left: 25px;
+    font-size: 17px;
+}
+#output-text{
+    display: block;
+    width: 600px;
+    height: 60px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: xx-large;
+    border: 2px solid black;
+}
+
+.question p{
+    font-size: x-large;
+}
+#submit-answer{
+    width: 110px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 1rem;
+    font-size: 17px;
+    font-weight: bold;
+}
+#outputText{
+    display: block;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    height: 35px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    font-size: xx-large;
+    border: 2px solid black;
+}

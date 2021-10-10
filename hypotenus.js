@@ -17,7 +17,7 @@ function hypotenusCalc() {
 
     const result = sumOfSquare(Number(inputArea[0].value), Number(inputArea[1].value));
 
-    output.innerText = "The hypotenus of the triangle is " + result;
+    output.innerText = "The hypotenus of the triangle is " + Number(result).toFixed(2);
 }
 
 
